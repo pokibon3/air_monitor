@@ -316,7 +316,7 @@ void setup() {
   Serial.begin(115200);
 
   lcd.init();
-  lcd.setRotation(3);  // 320x240
+  lcd.setRotation(1);  // 320x240 (180 deg from rotation 3)
   lcd.setBrightness(255);
 
   drawBackground();
